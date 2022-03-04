@@ -1,12 +1,7 @@
 package swapnil.c2tc.framework;
 
-public class BankFactory {
-	public SavingAcc getNewSavingAccount() {
-		return null;
-	}
-	public CurrentAcc getNewCurrentAccount() {
-		return null;
-	}
-	
+public interface BankFactory {
+	 SavingAcc getNewSavingAccount(int accNo, String accNum, float accBal);
+	 CurrentAcc getNewCurrentAccount(int accNo, String accNum, float accBal);
 	
 }

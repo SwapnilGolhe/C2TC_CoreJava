@@ -45,6 +45,10 @@ public class BankAcc {
 	public String toString() {
 		return "BankAcc [accNo=" + accNo + ", accNm=" + accNm + ", accBal=" + accBal + "]";
 	}
+	public void Deposite(float amount) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 }
