@@ -16,7 +16,7 @@ public class MMSavingAcc extends SavingAcc {
 
 	@Override
 	public String toString() {
-		return "MMSavingAcc [isWithdraw()=" + isaccBal() + ", toString()=" + super.toString() + ", getAccNo()="
+		return "MMSavingAcc [isWithdraw()=" + isAccBal() + ", toString()=" + super.toString() + ", getAccNo()="
 				+ getAccNo() + ", getAccNum()=" + getAccNm() + ", getAccBal()=" + getAccBal() +  "]";
 	}
 
